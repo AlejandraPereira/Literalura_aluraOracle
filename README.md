@@ -31,6 +31,8 @@ Maven 3.8.1 or higher
 
 PostgreSQL 12 or higher
 
+pgAdmin the most popular and feature rich Open Source administration and development platform for PostgreSQL
+
 -------------------------------------------------------------------------------
 Instalation
 -------------------------------------------------------------------------------
