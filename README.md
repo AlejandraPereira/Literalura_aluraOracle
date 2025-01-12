@@ -10,9 +10,13 @@ Features
 -------------------------------------------------------------------------------
 
 Search books by title: Query books in the Gutendex API and automatically log the data into the database.
+
 List registered books: Display all books stored in the database.
+
 List registered authors: Lists saved authors along with their associated books.
+
 Filter authors by year: Query authors alive in a specific year.
+
 List books by language: Filter books by languages ​​such as Spanish, English, French, or Portuguese.
 
 
