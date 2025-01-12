@@ -37,25 +37,25 @@ Instalation
 
 1.Clone the repository
 
-   git clone <REPOSITORY_URL>
+      git clone <REPOSITORY_URL>
 
-   cd literalura
+      cd literalura
 
 2. Set the environment variables
 
 Set the following environment variables to connect the application to your PostgreSQL database:
 
-   Variable Description Example
+      Variable Description Example
 
-   DB_HOST Database host localhost
+      DB_HOST Database host localhost
 
-   DB_PORT Database port 5432
+      DB_PORT Database port 5432
 
-   DB_NAME Database name literalura
+      DB_NAME Database name literalura
 
-   DB_USERNAME Database user postgres
+      DB_USERNAME Database user postgres
 
-   DB_PASSWORD Database password your_password
+      DB_PASSWORD Database password your_password
 
 Alternatively, edit the src/main/resources/application.properties file:
 
@@ -73,7 +73,7 @@ properties:
    
 Create a database in PostgreSQL with the following command:
 
-   sql
+      sql
 
    Copy code:
 
@@ -84,24 +84,23 @@ Create a database in PostgreSQL with the following command:
 Run the following command to compile the project and download the necessary dependencies:
 
 
-   bash
+      bash
 
 Copy code:
 
-   mvn clean install
+      mvn clean install
 
-   Usage
+Usage:
 
-   Run the application
+      Run the application
 
 To start the application, run:
 
-
-   bash
+      bash
 
 Copy code:
 
-   mvn spring-boot:run
+      mvn spring-boot:run
 
 -------------------------------------------------------------------------------
 Main menu
