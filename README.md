@@ -79,9 +79,11 @@ Copy code
 
 CREATE DATABASE literal;
 
+
 4. Build the project
 
 Run the following command to compile the project and download the necessary dependencies:
+
 
 bash
 
@@ -96,6 +98,7 @@ Run the application
 To start the application, run:
 
 
+
 bash
 
 Copy code
@@ -106,8 +109,6 @@ Main menu
 
 When you run the application, the following interactive menu will be displayed in the console:
 
-
-Copy code
 
 1 - Search for a book by title
 
@@ -121,7 +122,9 @@ Copy code
 
 0 - Exit
 
+-------------------------------------------------------------------------------
 Technologies used
+-------------------------------------------------------------------------------
 
 Java 17
 
@@ -135,22 +138,31 @@ Gutendex API (For querying book data)
 
 Jackson Databind (JSON data processing)
 
+-------------------------------------------------------------------------------
 Project structure
+-------------------------------------------------------------------------------
 
 plaintext
 
-Copy code
-
 src
 ├── main
+
 │ ├── java/com/alura/literalura
+
 │ │ ├── principal/Principal.java # Main class
+
 │ │ ├── repository # JPA repositories
+
 │ │ ├── service # Services for API consumption and data transformation
+
 │ │ └── model # Model classes: Author, Book, Data
+
 │ └── resources
+
 │ ├── application.properties # Application configuration
+
 │ └── static # Static files
+
 └── test # Testing
 
 
