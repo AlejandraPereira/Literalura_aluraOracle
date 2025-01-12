@@ -144,25 +144,25 @@ plaintext
 
 src
 
-├── main
-
-│ ├── java/com/alura/literalura
-
-│ │ ├── principal/Principal.java # Main class
-
-│ │ ├── repository # JPA repositories
-
-│ │ ├── service # Services for API consumption and data transformation
-
-│ │ └── model # Model classes: Author, Book, Data
-
-│ └── resources
-
-│ ├── application.properties # Application configuration
-
-│ └── static # Static files
-
-└── test # Testing
+      ├── main
+      
+      │ ├── java/com/alura/literalura
+      
+      │ │ ├── principal/Principal.java # Main class
+      
+      │ │ ├── repository # JPA repositories
+      
+      │ │ ├── service # Services for API consumption and data transformation
+      
+      │ │ └── model # Model classes: Author, Book, Data
+      
+      │ └── resources
+      
+      │ ├── application.properties # Application configuration
+      
+      │ └── static # Static files
+      
+      └── test # Testing
 
 
 
