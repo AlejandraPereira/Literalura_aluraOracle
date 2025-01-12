@@ -145,6 +145,7 @@ Project structure
 plaintext
 
 src
+
 ├── main
 
 │ ├── java/com/alura/literalura
