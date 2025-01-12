@@ -37,74 +37,73 @@ Instalation
 
 1.Clone the repository
 
-git clone <REPOSITORY_URL>
+   git clone <REPOSITORY_URL>
 
-cd literalura
+   cd literalura
 
 2. Set the environment variables
-   Set the following environment variables to connect the application to your PostgreSQL database:
 
-Variable Description Example
+Set the following environment variables to connect the application to your PostgreSQL database:
 
-DB_HOST Database host localhost
+   Variable Description Example
 
-DB_PORT Database port 5432
+   DB_HOST Database host localhost
 
-DB_NAME Database name literalura
+   DB_PORT Database port 5432
 
-DB_USERNAME Database user postgres
+   DB_NAME Database name literalura
 
-DB_PASSWORD Database password your_password
+   DB_USERNAME Database user postgres
+
+   DB_PASSWORD Database password your_password
 
 Alternatively, edit the src/main/resources/application.properties file:
 
-properties
+properties:
 
-Copy code
+   Copy code:
 
-spring.datasource.url=jdbc:postgresql://localhost:5432/literalura
+      spring.datasource.url=jdbc:postgresql://localhost:5432/literalura
 
-spring.datasource.username=postgres
+      spring.datasource.username=postgres
 
-spring.datasource.password=your_password
-
+      spring.datasource.password=your_password
 
 3. Create the database
    
 Create a database in PostgreSQL with the following command:
 
-sql
+   sql
 
-Copy code
+   Copy code:
 
-CREATE DATABASE literal;
-
+      CREATE DATABASE literal;
 
 4. Build the project
 
 Run the following command to compile the project and download the necessary dependencies:
 
 
-bash
+   bash
 
-Copy code
+Copy code:
 
-mvn clean install
+   mvn clean install
 
-Usage
+   Usage
 
-Run the application
+   Run the application
 
 To start the application, run:
 
 
+   bash
 
-bash
+Copy code:
 
-Copy code
+   mvn spring-boot:run
 
-mvn spring-boot:run
-
+-------------------------------------------------------------------------------
 Main menu
 
 When you run the application, the following interactive menu will be displayed in the console:
@@ -116,9 +115,9 @@ When you run the application, the following interactive menu will be displayed i
 
 3 - List of registered authors
 
-4 - List of authors alive at a certain time
+4 - List living Authors in a specific year
 
-5 - List of books by language
+5 - List books by language
 
 0 - Exit
 
