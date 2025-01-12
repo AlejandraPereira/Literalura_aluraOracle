@@ -1,8 +1,8 @@
 Literalura
 ------------------------------------------------------------------------------
-
-Literalura is an application that allows you to manage and explore books and authors using data obtained from the Gutendex API. It provides functionalities to search for books, register authors, list existing records, and query books by different criteria.
 -------------------------------------------------------------------------------
+Literalura is an application that allows you to manage and explore books and authors using data obtained from the Gutendex API. It provides functionalities to search for books, register authors, list existing records, and query books by different criteria.
+
 
 
 -------------------------------------------------------------------------------
@@ -10,7 +10,6 @@ Features
 -------------------------------------------------------------------------------
 
 Search books by title: Query books in the Gutendex API and automatically log the data into the database.
-
 List registered books: Display all books stored in the database.
 
 List registered authors: Lists saved authors along with their associated books.
