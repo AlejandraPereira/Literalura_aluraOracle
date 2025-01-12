@@ -23,5 +23,7 @@ Prerequisites
 Before running the application, make sure you have the following installed:
 
 Java 17 or higher
+
 Maven 3.8.1 or higher
+
 PostgreSQL 12 or higher
